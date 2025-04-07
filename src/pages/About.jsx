@@ -6,7 +6,7 @@ const About = () => {
         "I have basic knowledge of ServiceNow technologies.",
         "I'm familiar with MongoDB and SQL.",
         "I have total 3.3 years of experience in Infosys.",
-        "When I’m not coding, I enjoy going to the gym, watching movies and exploring new technology trends.",
+        "When I’m not coding, I enjoy going to the gym, and watching movies and exploring new technology trends.",
     ];
 
     return (
