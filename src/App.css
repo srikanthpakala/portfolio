@@ -431,40 +431,6 @@ p.section-heading.description,
     flex-direction: column;
 }
 
-.contact-form input,
-.contact-form textarea {
-    padding: 18px;
-    margin-bottom: 10px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.01);
-    backdrop-filter: blur(10px);
-    font-size: 1rem;
-    color: #007bff;
-}
-
-.contact-form textarea {
-    height: 100px;
-    max-height: 150px;
-    resize: none;
-}
-
-.contact-form button {
-    border-radius: 5px;
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.contact-form button:hover {
-    background: #0056b3;
-}
-
 /* Social Media Icons */
 .social-links {
     margin-top: 15px;

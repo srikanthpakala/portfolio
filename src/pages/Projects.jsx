@@ -17,16 +17,18 @@ const projectsData = [
         github: "https://srikanthpakala.github.io/portfolio",
     },
     {
-        title: "Supplier Contract Renewal – ServiceNow",
+        title: "Vendor Managed Inventory",
         description: [
-            "Automated supplier contract renewal workflow.",
-            "Integrated notifications and tracking system.",
-            "Enabled real-time status updates and approvals."
+            "Developed a dynamic Incident Form in ServiceNow to allow users to order products using Ship From Store (SFS) and Buy Online, Pick Up In Store (BOPIS) options.",
+            "Automated the product ordering process through workflows for assignment, categorization, and priority handling.",
+            "Enabled real- time email notifications to users upon successful form submission and database updates.",
+            "Improved efficiency by reducing manual steps and streamlining request management."
         ],
         roles: [
-            "Developed contract workflow on ServiceNow.",
-            "Integrated supplier notifications via email automation.",
-            "Automated contract status updates based on approvals."
+            "Worked on the use case to automate enabling/disabling SFS and BOPIS options based on user input.",
+            "Integrated logic to update the database with selected user preferences.",
+            "then Update the Database with user preferences.",
+            "Configured automated success email notifications after data processing.",
         ],
         technologies: ["JavaScript", "ServiceNow"],
     },

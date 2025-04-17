@@ -1,21 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Contact = () => {
-    const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        alert("Message Sent!");
-        setFormData({ name: "", email: "", message: "" });
-
-        let a = JSON.stringify(formData);
-        console.log(a);
-    };
-
     return (
         <div className="contact-container">
             <h2>Get in Touch</h2>
@@ -25,13 +10,6 @@ const Contact = () => {
                 <p><strong>Email:</strong> pakalasrikanth24@gmail.com</p>
                 <p><strong>Phone:</strong> +91 99484 66671</p>
             </div>
-
-            <form className="contact-form" onSubmit={handleSubmit}>
-                <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
-                <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
-                <textarea name="message" placeholder="Your Message" value={formData.message} onChange={handleChange} required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
 
             {/* Social Media Links with Icons */}
             <div className="social-links">
@@ -67,7 +45,6 @@ const Contact = () => {
                             height="20" rx="5" ry="5"></rect>
                         <path d="M8 11v6M16 11v6M8 8h.01M16 8h.01M12 11v6"></path>
                     </svg>
-
                 </a>
                 <a href="https://srikanthpakala.github.io/"
                     target="_blank" rel="noopener noreferrer">
@@ -88,4 +65,5 @@ const Contact = () => {
         </div>
     );
 };
+
 export default Contact;
